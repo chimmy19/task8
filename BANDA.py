@@ -10,5 +10,5 @@ students_data = pd.DataFrame({
 })
 
 print(students_data.head(3))
-print(students_data['Name'], students_data['Marks'])
+print(students_data['Name'], ['Marks'])
 print(students_data[students_data['Grade'] == 'A'])
